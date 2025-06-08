@@ -1,0 +1,13 @@
+# Backend API expose
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# LangChain & AI
+langchain
+langchain-openai
+langchain-community
+langchain_huggingface
+
+# Vector Store
+chromadb
