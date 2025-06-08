@@ -2,12 +2,16 @@
 fastapi
 uvicorn[standard]
 python-dotenv
+sse_starlette
 
 # LangChain & AI
 langchain
-langchain-openai
-langchain-community
+langchain-groq
+langchain_community
 langchain_huggingface
+"unstructured[pdf,tesseract,easyocr]"
 
 # Vector Store
 chromadb
+
+#!apt-get install poppler-utils
