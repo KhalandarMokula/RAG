@@ -9,7 +9,7 @@ langchain
 langchain-groq
 langchain_community
 langchain_huggingface
-"unstructured[pdf,tesseract,easyocr]"
+#"unstructured[pdf,tesseract,easyocr]"
 
 # Vector Store
 chromadb
