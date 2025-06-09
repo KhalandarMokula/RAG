@@ -4,11 +4,11 @@ FROM python:3.11-slim
 # Set working directory
 WORKDIR /app
 
-# Install system dependencies (optional: for tesseract/pdf support in future)
-RUN yum update -y && yum groupinstall -y "Development Tools" && \
-    yum install -y curl && \
-    yum clean all
-
+# Install system dependencies 
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    curl \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Copy dependency list and install Python packages
 COPY requirements.txt .
