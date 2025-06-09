@@ -4,7 +4,7 @@
 
 
 **Steps to Generate & Store Data in VectorDB:**
-1. Run Insurance_RAG.ipynb (PDFParsing/Insurance_RAG.ipynb) Notebook - [Extracts text, tables ->  perfoms chunking -> Generates Documents -> transforms to embeddings ->  Stores in VectorDB -> Dumps the Documents into .json
+1. Run Insurance_RAG.ipynb (PDFParsing/Insurance_RAG.ipynb) Notebook - [Extracts text, tables ->  performs chunking -> Generates Documents -> transforms to embeddings ->  Stores in VectorDB -> Dumps the Documents into .json
 
 **Steps to Run the ChatBot application:**
 1. Run main.py (python main.py)
