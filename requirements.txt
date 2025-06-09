@@ -9,6 +9,7 @@ langchain
 langchain-groq
 langchain_community
 langchain_huggingface
+langserve
 #"unstructured[pdf,tesseract,easyocr]"
 
 # Vector Store
